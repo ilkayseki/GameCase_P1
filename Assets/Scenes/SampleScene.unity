@@ -414,7 +414,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gridSize: 4
-  cellPrefab: {fileID: 6580309766921033571, guid: ea717cf2e401bb640b3b9bc9bc7fe03a, type: 3}
 --- !u!4 &1698906861
 Transform:
   m_ObjectHideFlags: 0

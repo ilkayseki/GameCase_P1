@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -9,6 +10,10 @@ public class Cell : MonoBehaviour
     public int posX;
     public int posY;
 
+    [SerializeField] private Sprite mainSprite;
+    [SerializeField] private Sprite XSprite;
+
+
     [Inject]
     private GridManager gridManager;
 
@@ -16,6 +21,11 @@ public class Cell : MonoBehaviour
     public void Construct(GridManager gridManager)
     {
         this.gridManager = gridManager;
+    }
+
+    private void Start()
+    {
+        GetComponent<SpriteRenderer>().sprite = mainSprite;
     }
 
     void OnMouseDown()
@@ -32,13 +42,15 @@ public class Cell : MonoBehaviour
     public void MarkCell()
     {
         isMarked = true;
-        GetComponent<SpriteRenderer>().color = Color.red;
+        //GetComponent<SpriteRenderer>().color = Color.red;
+        GetComponent<SpriteRenderer>().sprite = XSprite;
     }
 
     public void UnmarkCell()
     {
         isMarked = false;
-        GetComponent<SpriteRenderer>().color = Color.white;
+        //GetComponent<SpriteRenderer>().color = Color.white;
+        GetComponent<SpriteRenderer>().sprite = mainSprite;
     }
 
     public class Factory : PlaceholderFactory<Cell> { }
