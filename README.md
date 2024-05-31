@@ -1,10 +1,10 @@
 # Proje Adı: Grid Oyun Projesi
 
 ## Proje Açıklaması
-Bu proje, Unity kullanılarak oluşturulmuş bir grid oyunudur. Proje, iki bağımsız bölümden oluşan bir challenge'ın ilk kısmını kapsamaktadır. Bu kısımda, n x n'lik bir grid oluşturulmuş ve grid üzerindeki hücrelere tıklanıldığında X işaretleri eklenmiştir. Yatay veya dikey olarak komşu olan en az 3 X işareti oluştuğunda, bu X'ler yok edilmektedir. 
+Bu proje, Unity kullanılarak oluşturulmuş bir grid oyunudur. N x N'lik bir grid oluşturulmuş ve grid üzerindeki hücrelere tıklanıldığında X işaretleri eklenmiştir. Yatay veya dikey olarak komşu olan en az 3 X işareti oluştuğunda, bu X'ler yok edilmektedir. 
 
 ## Görev Tanımı
-Bu proje, bir görev olarak verilmiş ve belirli gereksinimlere göre geliştirilmiştir. Aşağıda, görevde belirtilen istekler ve bu projede nasıl uygulandıkları açıklanmaktadır:
+Bu proje, bir case olarak verilmiş ve belirli gereksinimlere göre geliştirilmiştir. Aşağıda, görevde belirtilen istekler ve bu projede nasıl uygulandıkları açıklanmaktadır:
 
 ### Genel Gereksinimler
 - **Unity Versiyonu:** Proje, Unity 2020.3.x veya 2021.3.x versiyonlarından biri kullanılarak geliştirilmiştir.
