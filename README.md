@@ -32,7 +32,7 @@ Bu proje, bir görev olarak verilmiş ve belirli gereksinimlere göre geliştiri
 - **Canvas Kullanılmaması (BONUS):** Grid, canvas kullanılmadan oluşturulmuştur.
 
 ## Bonus Özellikler
-- **Dependency Injection:** Proje içerisinde herhangi bir Dependency Injection framework'ü kullanılmıştır.
+- **Dependency Injection:** Proje içerisinde Zenject kullanılmıştır.
 - **SOLID Prensipleri:** Proje kodları SOLID prensiplerine uygun olarak yazılmıştır.
 
 ## Kullanılan Teknolojiler
