@@ -1,41 +1,40 @@
-# Proje Adı: Grid Oyun Projesi
+# Project Title: Grid Game Project
 
-## Proje Açıklaması
-Bu proje, Unity kullanılarak oluşturulmuş bir grid oyunudur. N x N'lik bir grid oluşturulmuş ve grid üzerindeki hücrelere tıklanıldığında X işaretleri eklenmiştir. Yatay veya dikey olarak komşu olan en az 3 X işareti oluştuğunda, bu X'ler yok edilmektedir. 
+## Project Description
+This project is a grid game developed using Unity. An N x N grid has been created, and when the cells in the grid are clicked, X marks are added. When at least 3 X marks are adjacent either horizontally or vertically, these X marks are destroyed.
 
-## Görev Tanımı
-Bu proje, bir case olarak verilmiş ve belirli gereksinimlere göre geliştirilmiştir. Aşağıda, görevde belirtilen istekler ve bu projede nasıl uygulandıkları açıklanmaktadır:
+## Task Description
+This project was given as a case and developed according to specific requirements. Below are the requirements mentioned in the task and how they are implemented in this project:
 
-### Genel Gereksinimler
-- **Unity Versiyonu:** Proje, Unity 2020.3.x veya 2021.3.x versiyonlarından biri kullanılarak geliştirilmiştir.
-- **Versiyon Kontrol:** Proje en baştan itibaren git ile versiyonlanmış ve düzenli commitler gerçekleştirilmiştir.
-- **Public Repository:** Proje, GitHub/Bitbucket gibi bir platforma public olarak yüklenmiştir.
-- **Bonus Görevler:** İlgili bonus maddeleri uygulanmıştır.
-- **SOLID Prensipleri:** Kodlar SOLID prensiplerine uygun olarak yazılmıştır.
-- **Dependency Injection:** Herhangi bir Dependency Injection framework'ü kullanılmıştır (BONUS).
-- **Kod Kalitesi:** Kod okunaklı ve belirli bir coding convention'a bağlı olarak yazılmıştır.
+### General Requirements
+- **Unity Version:** The project has been developed using either Unity 2020.3.x or 2021.3.x versions.
+- **Version Control:** The project has been versioned with Git from the beginning and regular commits have been made.
+- **Public Repository:** The project has been uploaded to a public platform like GitHub or Bitbucket.
+- **Bonus Tasks:** The relevant bonus tasks have been implemented.
+- **SOLID Principles:** The code is written according to SOLID principles.
+- **Dependency Injection:** Any Dependency Injection framework has been used (BONUS).
+- **Code Quality:** The code is readable and follows a specific coding convention.
 
-### Proje Gereksinimleri
-1. **n x n'lik Grid:** Editör'de veya Runtime'da düzenlenebilir olan bir integer ("n") ile n x n'lik bir grid oluşturulmuştur.
-2. **X İşareti Ekleme:** Grid üzerindeki herhangi bir hücreye dokunulduğunda ya da tıklandığında ilgili hücreye bir X işareti yerleştirilir.
-3. **X'lerin Yok Edilmesi:** Oluşan X'lerden en az 3 tanesi birbirine yatay veya dikey olarak komşu hale geldiğinde ilgili X'ler yok edilir.
-4. **Kazanma/Kaybetme Mekaniği:** Oyun bir kazanma ya da kaybetme mekaniğine sahip değildir.
-5. **Ekrana Sığma:** Oluşturulan grid daima ekrana sığmalıdır.
-6. **Canvas Kullanımı (BONUS):** Grid için canvas kullanılmamıştır.
+### Project Requirements
+1. **n x n Grid:** An n x n grid has been created with an integer ("n") that can be adjusted in the Editor or at Runtime.
+2. **Adding X Marks:** When any cell in the grid is touched or clicked, an X mark is placed in that cell.
+3. **Destroying X Marks:** When at least 3 X marks are adjacent either horizontally or vertically, these X marks are destroyed.
+4. **No Win/Loss Mechanic:** The game does not have a win or loss mechanic.
+5. **Screen Fit:** The created grid always fits on the screen.
+6. **Canvas Usage (BONUS):** Canvas has not been used for the grid.
 
+## Features
+- **n x n Grid:** A grid can be created with a value of n that can be set in the Editor or at Runtime.
+- **Adding X Marks:** An X mark is added to any cell in the grid when clicked.
+- **Destroying X Marks:** At least 3 X marks that are adjacent either horizontally or vertically are automatically destroyed.
+- **Screen Fit:** The created grid always fits on the screen.
+- **No Canvas Usage (BONUS):** The grid is created without using canvas.
 
-## Özellikler
-- **n x n'lik Grid:** Editör veya runtime'da belirlenebilen n değeri ile grid oluşturulabilir.
-- **X İşareti Ekleme:** Grid üzerindeki herhangi bir hücreye tıklanıldığında o hücreye X işareti eklenir.
-- **X'lerin Yok Edilmesi:** Yatay veya dikey olarak komşu olan en az 3 X işareti otomatik olarak yok edilir.
-- **Ekrana Sığma:** Oluşturulan grid daima ekrana sığar.
-- **Canvas Kullanılmaması (BONUS):** Grid, canvas kullanılmadan oluşturulmuştur.
+## Bonus Features
+- **Dependency Injection:** Zenject has been used within the project.
+- **SOLID Principles:** The project code adheres to SOLID principles.
 
-## Bonus Özellikler
-- **Dependency Injection:** Proje içerisinde Zenject kullanılmıştır.
-- **SOLID Prensipleri:** Proje kodları SOLID prensiplerine uygun olarak yazılmıştır.
-
-## Kullanılan Teknolojiler
+## Technologies Used
 - Unity 2021.3.x
 - C#
 - Git
