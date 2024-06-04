@@ -40,3 +40,6 @@ This project was given as a case and developed according to specific requirement
 - Git
 - Zenject
 - Textmesh Pro
+
+## Additional Links
+- Game Video: https://www.linkedin.com/feed/update/urn:li:activity:7202383201116295168/
